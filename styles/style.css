@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 
+:root {
+    --color-primaria: #000000;
+    --color-secundaria: #F6F6F6;
+    --color-terciaria: #22D4FD;
+    --color-hover: #272727;
+
+    --fuente-primaria: 'Krona One', sans-serif;
+    --fuente-secundaria: 'Montserrat', sans-serif;
+}
+
 * {
     padding: 0;
     margin:0;
 }
 
 body{
-    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -22,10 +31,10 @@ body{
     gap: 80px;
 }
 .header__menu__link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fuente-secundaria);
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--color-terciaria);
     text-decoration: none;
 
 }
@@ -49,16 +58,16 @@ body{
 
 .presentacion__contenido__titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fuente-primaria);
 }
 
 .titulo-destaque {
-    color: #22D4FD; ;
+    color: var(--color-terciaria); ;
 }
 
 .presentacion__contenido__texto{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fuente-secundaria);
 }
 
 .presentacion__enlaces{
@@ -70,17 +79,16 @@ body{
 }
 
 .apresentacao__enlaces__subtitulo{
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--fuente-primaria);
     font-weight: 400;
     font-size: 24px;
 }
 
 .presentacion__enlaces__link{
-      /* background-color: #22D4FD; */
       display: flex;
       justify-content: center;
       gap: 16px;
-      border: 2px solid #22D4FD;
+      border: 2px solid var(--color-terciaria);
       width: 378px;
       text-align: center;
       border-radius: 8px;
@@ -88,20 +96,20 @@ body{
       font-weight: 600;
       padding: 21.5px 0;
       text-decoration: none;
-      color: #F6F6F6;
-      font-family: 'Montserrat', sans-serif;
+      color: var(--color-secundaria);
+      font-family: var(--fuente-secundaria);
 }
 
 .presentacion__enlaces__link:hover{
-    background-color: #272727;
+    background-color: var(--color-hover);
 }
 
 .footer{
-    color: #000000;
-    background-color: #22D4FD;
+    color:var(--color-primaria);
+    background-color: var(--color-terciaria);
     padding: 24px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fuente-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
