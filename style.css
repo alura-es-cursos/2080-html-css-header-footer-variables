@@ -44,7 +44,10 @@ body{
 
 .presentacion__enlaces{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .apresentacao__enlaces__subtitulo{
@@ -55,6 +58,9 @@ body{
 
 .presentacion__enlaces__link{
       /* background-color: #22D4FD; */
+      display: flex;
+      justify-content: center;
+      gap: 16px;
       border: 2px solid #22D4FD;
       width: 378px;
       text-align: center;
@@ -65,4 +71,8 @@ body{
       text-decoration: none;
       color: #F6F6F6;
       font-family: 'Montserrat', sans-serif;
+}
+
+.presentacion__enlaces__link:hover{
+    background-color: #272727;
 }
