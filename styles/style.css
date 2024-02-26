@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -16,6 +16,7 @@ body{
 .header{
     padding: 2% 0% 0% 15%;
 }
+
 .header__menu{
     display: flex;
     gap: 80px;
@@ -24,12 +25,15 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+
 }
 
 
 
 .presentacion {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
