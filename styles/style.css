@@ -2,9 +2,9 @@
 
 
 :root {
-    --color-primaria: #000000;
-    --color-secundaria: #F6F6F6;
-    --color-terciaria: #22D4FD;
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4FD;
     --color-hover: #272727;
 
     --fuente-krona: 'Krona One', sans-serif;
@@ -18,8 +18,8 @@
 
 body{
     box-sizing: border-box;
-    background-color: var(--color-primaria);
-    color: var(--color-secundaria);
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
 }
 
 .header{
@@ -34,7 +34,7 @@ body{
     font-family: var(--fuente-montserrat);
     font-size: 24px;
     font-weight: 600;
-    color: var(--color-terciaria);
+    color: var(--color-terciario);
     text-decoration: none;
 
 }
@@ -62,7 +62,7 @@ body{
 }
 
 .titulo-destaque {
-    color: var(--color-terciaria); ;
+    color: var(--color-terciario); ;
 }
 
 .presentacion__contenido__texto{
@@ -87,7 +87,7 @@ body{
       display: flex;
       justify-content: center;
       gap: 16px;
-      border: 2px solid var(--color-terciaria);
+      border: 2px solid var(--color-terciario);
       width: 378px;
       text-align: center;
       border-radius: 8px;
@@ -95,7 +95,7 @@ body{
       font-weight: 600;
       padding: 21.5px 0;
       text-decoration: none;
-      color: var(--color-secundaria);
+      color: var(--color-secundario);
       font-family: var(--fuente-montserrat);
 }
 
@@ -104,11 +104,11 @@ body{
 }
 
 .footer{
-    color:var(--color-primaria);
-    background-color: var(--color-terciaria);
+    color:var(--color-primario);
+    background-color: var(--color-terciario);
     padding: 24px;
     text-align: center;
-    font-family: var(--fuente-krona);
+    font-family: var(--fuente-montserrat);
     font-size: 24px;
     font-weight: 400;
 }
